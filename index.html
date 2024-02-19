@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>předměny</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   <div class="container">
+    <div class="currency">
+        <input types="number" id="amount-one" value="1"
+        placeholder="0">
+        <select id="currency-one">
+            <option value="USD">Dolar</option>
+            <option value="CZK">Koruna</option>
+            <option value="EUR"selected>Euro</option>
+            <option value="HRK">Kuna</option>
+            <option value="CNY">Juan</option>
+            <option value="EGP">Egyp. Libra</option>
+         </select>
+    </div>
+
+    <div class="swap-rate-container">
+        <div class="rate" id="rate"></div>
+        <button class="btn" id="swap">Swap</button>
+    </div>
+    <div class="currency">
+        <input types="number" id="amount-two" 
+        placeholder="0">
+        <select id="currency-two">
+            <option value="USD">Dolar</option>
+            <option value="CZK"selected>Koruna</option>
+            <option value="EUR">Euro</option>
+            <option value="HRK">Kuna</option>
+            <option value="CNY">Juan</option>
+            <option value="EGP">Egyp. Libra</option>
+         </select>
+     
+   </div> 
+   
+
+   <script src="script.js"></script>
+</body>
+</html>
